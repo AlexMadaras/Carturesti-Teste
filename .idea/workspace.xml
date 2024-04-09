@@ -5,36 +5,141 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50cda72b-8e71-443c-b8dd-fa4ce7185089" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2eHPNhdbCOTL4d3w1YB4XBwTBfy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/alecc/IdeaProjects/Carturesti/src/main/java/org/example/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.TesteLogIn.checkTitlePage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TesteLogIn.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TesteLogIn.logIn.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TesteLogIn.logInWrongPass.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TesteLogIn.logInWrongUser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TesteLogIn.loginNoCredentials.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TesteLogIn.loginNoEmail.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TesteLogIn.loginNoPassword.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alecc/IdeaProjects/Testauto&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/alecc/IdeaProjects/Carturesti/src/main/java/org/example/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TEXT&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="TestNG.TesteLogIn.loginNoCredentials">
+    <configuration name="TesteLogIn.logInWrongPass" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Carturesti" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteLogIn" />
+      <option name="METHOD_NAME" value="logInWrongPass" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteLogIn.logInWrongUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Carturesti" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteLogIn" />
+      <option name="METHOD_NAME" value="logInWrongUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteLogIn.loginNoCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Carturesti" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteLogIn" />
+      <option name="METHOD_NAME" value="loginNoCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteLogIn.loginNoEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Carturesti" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteLogIn" />
+      <option name="METHOD_NAME" value="loginNoEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteLogIn.loginNoPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Carturesti" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteLogIn" />
+      <option name="METHOD_NAME" value="loginNoPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TesteLogIn.loginNoCredentials" />
+        <item itemvalue="TestNG.TesteLogIn.loginNoPassword" />
+        <item itemvalue="TestNG.TesteLogIn.loginNoEmail" />
+        <item itemvalue="TestNG.TesteLogIn.logInWrongUser" />
+        <item itemvalue="TestNG.TesteLogIn.logInWrongPass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,22 +148,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711558494832</updated>
-      <workItem from="1711558495963" duration="6000" />
+      <workItem from="1711558495963" duration="7730000" />
+      <workItem from="1712325419199" duration="5810000" />
+      <workItem from="1712591951000" duration="4017000" />
+      <workItem from="1712687271338" duration="486000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
