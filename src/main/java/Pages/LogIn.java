@@ -60,6 +60,18 @@ public class LogIn {
         assert noEmail.equals("Acest câmp trebuie completat.");
         assert noPassword.equals("Acest câmp trebuie completat.");
     }
+    public void accountDropdown(){
+        WebElement accountDropdown = driver.findElement(By.id("accountDropdown"));
+        accountDropdown.click();
+    }
+    public void clickLogout(){
+        WebElement logout = driver.findElement(By.xpath("/html/body/div[4]/div[1]/div/div[2]/md-menu-bar[2]/md-menu-item[3]/ul/li[5]/a"));
+        logout.click();
+    }
+    public void acceptCookies(){
+        WebElement acceptCookies = driver.findElement(By.xpath("/html/body/div[2]/div/a[2]"));
+        acceptCookies.click();
+    }
 
 
 

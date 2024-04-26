@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50cda72b-8e71-443c-b8dd-fa4ce7185089" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/ProductsAndCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestePaC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/LogIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TesteLogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TesteLogIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +44,14 @@
     &quot;TestNG.TesteLogIn.checkTitlePage.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TesteLogIn.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TesteLogIn.logIn.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TesteLogIn.logInWrongEmail.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TesteLogIn.logInWrongPass.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TesteLogIn.logInWrongUser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TesteLogIn.logOut.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TesteLogIn.loginNoCredentials.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TesteLogIn.loginNoEmail.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.TesteLogIn.loginNoPassword.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestePaC.logIn.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/alecc/IdeaProjects/Testauto&quot;,
@@ -62,12 +69,12 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="TestNG.TesteLogIn.loginNoCredentials">
-    <configuration name="TesteLogIn.logInWrongPass" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TesteLogIn.checkTitlePage">
+    <configuration name="TesteLogIn.checkTitlePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Carturesti" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TesteLogIn" />
-      <option name="METHOD_NAME" value="logInWrongPass" />
+      <option name="METHOD_NAME" value="checkTitlePage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -75,11 +82,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteLogIn.logInWrongUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TesteLogIn.logIn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Carturesti" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TesteLogIn" />
-      <option name="METHOD_NAME" value="logInWrongUser" />
+      <option name="METHOD_NAME" value="logIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteLogIn.logOut" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Carturesti" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TesteLogIn" />
+      <option name="METHOD_NAME" value="logOut" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -92,18 +111,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TesteLogIn" />
       <option name="METHOD_NAME" value="loginNoCredentials" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteLogIn.loginNoEmail" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Carturesti" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TesteLogIn" />
-      <option name="METHOD_NAME" value="loginNoEmail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TesteLogIn.loginNoCredentials" />
+        <item itemvalue="TestNG.TesteLogIn.checkTitlePage" />
         <item itemvalue="TestNG.TesteLogIn.loginNoPassword" />
-        <item itemvalue="TestNG.TesteLogIn.loginNoEmail" />
-        <item itemvalue="TestNG.TesteLogIn.logInWrongUser" />
-        <item itemvalue="TestNG.TesteLogIn.logInWrongPass" />
+        <item itemvalue="TestNG.TesteLogIn.loginNoCredentials" />
+        <item itemvalue="TestNG.TesteLogIn.logOut" />
+        <item itemvalue="TestNG.TesteLogIn.logIn" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +158,13 @@
       <workItem from="1711558495963" duration="7730000" />
       <workItem from="1712325419199" duration="5810000" />
       <workItem from="1712591951000" duration="4017000" />
-      <workItem from="1712687271338" duration="486000" />
+      <workItem from="1712687271338" duration="682000" />
+      <workItem from="1713109480967" duration="2142000" />
+      <workItem from="1713198344326" duration="2469000" />
+      <workItem from="1713371098709" duration="4314000" />
+      <workItem from="1713802066861" duration="4170000" />
+      <workItem from="1713974125520" duration="985000" />
+      <workItem from="1713979129638" duration="1818000" />
     </task>
     <servers />
   </component>
