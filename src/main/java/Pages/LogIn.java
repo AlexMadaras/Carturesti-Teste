@@ -19,7 +19,7 @@ public class LogIn {
     }
     public void enterEmail(){
         WebElement fieldEmail = driver.findElement(By.id("loginform-email"));
-        fieldEmail.sendKeys("madarasalexandru2@gmail.com");
+        fieldEmail.sendKeys("napode5169@crodity.com");
     }
     public void enterPassword(){
         WebElement fieldPassword = driver.findElement(By.id("loginform-password"));
